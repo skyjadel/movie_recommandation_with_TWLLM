@@ -47,6 +47,15 @@ rating.csv 檔案太大 (587MB)，放不上GitHub，請到 <a href='https://driv
 由 Recommandation_cross_score_calculation.ipynb 產生的，包含電影之間交叉分數的 sqlite database 檔案 <br>
 rating.csv 檔案太大 (120MB)，放不上GitHub，請到 <a href='https://drive.google.com/file/d/1ANEeGekSrWQyzWnDHKSxF5CUE8wFPvG6/view?usp=sharing'>https://drive.google.com/file/d/1ANEeGekSrWQyzWnDHKSxF5CUE8wFPvG6/view?usp=sharing<a> 下載
 
+## 需求套件與硬體
+比較特殊的有： <br>
+pytorch, transformers <br>
+另外還需要： <br>
+pandas, matplotlib, numpy, json, sqlite3，另外 code 裡面有用到執行進度條套件 tqdm，如果不想裝就要去 code 裡面改掉。 <br>
+硬體需求： <br>
+以 float16 精度執行 Llama-3-Taiwan-8B 模型，需要 20GB 以上的 VRAM 比較保險。
+
+
 
 
 
