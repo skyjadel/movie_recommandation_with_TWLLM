@@ -25,9 +25,10 @@
 ### Recommandation_cross_score_calculation.ipynb
 預先計算推薦資料庫的程式，負責讀取 grouplens.org 所提供的電影評分資料集，並計算出裡面電影之間的高分交集程度。
 
-### rating.csv & movies.csv
+### rating.csv, movies.csv & user.csv
 25M-MovieLens 資料集的原始檔案，rating.csv 存有 25M 筆電影評分，欄位包含使用者ID，電影ID，評分與時間戳記 <br>
-movies.csv 則儲存了電影ID與電影之間的對應關係，欄位包含電影ID，電影標題，類型，年份與上線時間戳記
+movies.csv 則儲存了電影ID與電影之間的對應關係，欄位包含電影ID，電影標題，類型，年份與上線時間戳記 <br>
+rating.csv 檔案太大 (587MB)，放不上GitHub，請到 <a href='https://drive.google.com/file/d/1Y3IKPQv0vKC3xhlMyZBhUx6Jd3eSWBYE/view?usp=sharing'>https://drive.google.com/file/d/1Y3IKPQv0vKC3xhlMyZBhUx6Jd3eSWBYE/view?usp=sharing<a> 下載
 
 ### hundred_likers.csv
 列出所有至少拿到 100 個 4 分以上高分的電影，欄位包含電影ID，電影標題，年份，高分次數，高分率 <br>
@@ -43,7 +44,8 @@ movies.csv 則儲存了電影ID與電影之間的對應關係，欄位包含電�
 在整個系統當中做為提示使用者喜歡的電影的題庫存在
 
 ### cross_scores.db
-由 Recommandation_cross_score_calculation.ipynb 產生的，包含電影之間交叉分數的 sqlite database 檔案
+由 Recommandation_cross_score_calculation.ipynb 產生的，包含電影之間交叉分數的 sqlite database 檔案 <br>
+rating.csv 檔案太大 (120MB)，放不上GitHub，請到 <a href='https://drive.google.com/file/d/1ANEeGekSrWQyzWnDHKSxF5CUE8wFPvG6/view?usp=sharing'>https://drive.google.com/file/d/1ANEeGekSrWQyzWnDHKSxF5CUE8wFPvG6/view?usp=sharing<a> 下載
 
 
 
